@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMDb Clone</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header Section with imbd icone, search box and Heart Icon -->
+        <nav class="header">
+            <span class="imdb-icon">IMDb</span>
+            <input type="text" placeholder="Search Movie...">
+            <span class="fav-icon">&#9829;</span>
+        </nav>
+
+        <!-- Heading -->
+        <h1 class="heading">Top Trending Movies</h1>
+
+        <!-- movies section-->
+        <main class="main-container">
+
+            <!-- Movies Container -->
+            <div class="movies-container">
+                <!-- <div class="card" data-id="${e.id}">
+                        <div class="img">
+                            <img src="${image_path + e.poster_path}" onerror="this.onerror=null;this.src='./img/NIF.jpg';" >
+                        </div>
+                        <div class="info">
+                            <h5>${e.title}</h5>
+                        </div>
+                        <span class="rating">${e.vote_average.toFixed(1)}</span>
+                    </div> -->
+            </div>
+
+            <!-- Favorite Movies Page -->
+            <div class="favorite-movie-page">
+                <nav 
+                    class="header">
+                    <span class="imdb-icon">IMDb</span>
+                    <h1 class="heading">Favorite Movies</h1>
+                    <span id="x-icon">&#9747;<span/>
+                </nav>
+
+                <div class="favorite-page">
+                    <!-- <div class="card" data-id="${e.id}">
+                        <div class="img">
+                            <img src="${image_path + e.poster_path}" onerror="this.onerror=null;this.src='./img/NIF.jpg';" >
+                        </div>
+                        <div class="info">
+                            <h5>${e.title}</h5>
+                        </div>
+                        <span class="rating">${e.vote_average.toFixed(1)}</span>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Movie Page -->
+            <div class="movie-page">
+
+            </div>
+        </main>
+
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
+
