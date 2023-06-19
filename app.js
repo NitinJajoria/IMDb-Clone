@@ -216,7 +216,7 @@ const showSearchMovies = (data) => {
         return `
         <div class="card" data-id="${e.id}">
             <div class="img">
-                <img src="${image_path + e.poster_path}" onerror="this.onerror=null;this.src='./img/NIF.jpg';" >
+                <img src="${image_path + e.poster_path}" onerror="this.onerror=null;this.src='./NIF.jpg';" >
             </div>
             <div class="info">
                 <h5>${e.title}</h5>
